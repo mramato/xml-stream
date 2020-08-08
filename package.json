@@ -1,5 +1,5 @@
 {
-  "name": "xml-stream",
+  "name": "@mramato/xml-stream",
   "description": "XML stream to JavaScript object converter based on Expat.",
   "keywords": [
     "xml",
@@ -18,18 +18,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/assistunion/xml-stream.git"
+    "url": "git@github.com:mramato/xml-stream.git"
   },
   "dependencies": {
-    "iconv": "^2.1.4",
-    "node-expat": "^2.3.7",
-    "readable-stream": "^1.0.31"
+    "iconv-lite": "^0.6.2",
+    "node-expat": "^2.3.18",
+    "readable-stream": "^3.6.0"
   },
   "directories": {
     "lib": "./lib"
   },
   "main": "index",
   "devDependencies": {
-    "mocha": "^1.21.4"
+    "mocha": "^8.1.1"
   }
 }

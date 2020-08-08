@@ -1,10 +1,12 @@
 # XmlStream
 
+_This is a fork of the unmaintained [xml-stream](https://github.com/assistunion/xml-stream) with updated dependencies but no significant code changes._
+
 XmlStream is a Node.js XML stream parser and editor, based on
 [node-expat](https://github.com/astro/node-expat) (libexpat SAX-like parser
 binding).
 
-    $ npm install xml-stream
+    $ npm install @mramato/xml-stream
 
 ## Rationale
 
